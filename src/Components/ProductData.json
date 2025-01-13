@@ -1,0 +1,57 @@
+[
+    {
+        "img":"product0.png",
+        "name":"Loveseat Sofa",
+        "price":"$199.00",
+        "oldPrice":"$400.00"
+
+    },
+    {
+        "img":"product8.jpg",
+        "name":"Luxury Sofa",
+        "price":"$299.00",
+        "oldPrice":"$500.00"
+    },
+    {
+        "img":"product1.jpg",
+        "name":"Table Lamp",
+        "price":"$19.00",
+        "oldPrice":""
+    },
+    {
+        "img":"product2.jpg",
+        "name":"White Drawer Unit",
+        "price":"$89.99",
+        "oldPrice":""
+    },
+    {
+        "img":"product3.jpg",
+        "name":"Black Tray Table",
+        "price":"$99.00",
+        "oldPrice":"$150.00"
+    },
+    {
+        "img":"product4.jpg",
+        "name":"Lamp",
+        "price":"$39.00",
+        "oldPrice":""
+    },
+    {
+        "img":"product5.jpg",
+        "name":"Light Beige Pillow",
+        "price":"$3.99",
+        "oldPrice":"$5.00"
+    },
+    {
+        "img":"product6.jpg",
+        "name":"Table Lamp",
+        "price":"$39.00",
+        "oldPrice":"$50.99"
+    },
+    {
+        "img":"product7.jpg",
+        "name":"Bamboo Basket",
+        "price":"$9.00",
+        "oldPrice":"$12.99"
+    }
+]

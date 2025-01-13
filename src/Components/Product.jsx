@@ -1,8 +1,11 @@
 import React from 'react'
+import Notification from './Notification'
 
 const Product = () => {
   return (
-    <div>Product</div>
+    <>
+      
+    </>
   )
 }
 
