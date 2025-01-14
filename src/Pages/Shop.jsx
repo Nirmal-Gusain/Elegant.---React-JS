@@ -1,7 +1,7 @@
 import React from 'react'
 import { MdKeyboardArrowRight } from "react-icons/md";
-import ProductData from "./ProductData.json"
-import SingleProduct from './SingleProduct';
+import ProductData from "../Components/ProductData.json"
+import SingleProduct from '../Components/SingleProduct';
 
 
 const Shop = () => {

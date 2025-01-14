@@ -12,13 +12,11 @@ const Navbar = () => {
     setShowMenu(prev => !prev)
   }
   
-  return (
+  return ( 
     <div className="flex items-center justify-between max-w-[1440px] m-auto py-4 px-40 max-sm:px-8">
       <div className="flex items-center gap-1">
       <FaBars onClick={toggleMenu} className="hidden max-sm:block"/>
-      {
-        showMenu ? <Flymenu toggleMenu ={toggleMenu}/> : ""
-      }
+      <Flymenu toggleMenu={toggleMenu} showMenu={showMenu}/>
       
       <h2 className="text-2xl font-medium px-2"><NavLink to="/">3legant.</NavLink> </h2>
 

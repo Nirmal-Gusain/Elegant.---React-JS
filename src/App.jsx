@@ -1,12 +1,12 @@
 import React from "react";
-import Home from "./Components/Home";
+import Home from "./Pages/Home";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Shop from "./Components/Shop";
-import ErrorPage from "./Components/ErrorPage";
+import Shop from "./Pages/Shop";
+import ErrorPage from "./Pages/ErrorPage";
 import Notification from "./Components/Notification";
 import Navbar from "./Components/Navbar";
-import Contact from "./Components/Contact";
-import Product from "./Components/Product";
+import Contact from "./Pages/Contact";
+import Product from "./Pages/Product";
 import Footer from "./Components/Footer"
 
 const App = () => {
