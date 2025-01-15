@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Home from "./Pages/Home";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Shop from "./Pages/Shop";
@@ -10,14 +10,19 @@ import Product from "./Pages/Product";
 import Footer from "./Components/Footer"
 
 const App = () => {
+  const[count,setCount] = useState(0)
+
+  const handleCartCount = ()=>{
+    setCount((prev)=> prev + 1)
+  }
   let router = createBrowserRouter([
     {
       path: "/",
       element: (
         <>
           <Notification />
-          <Navbar />
-          <Home />
+          <Navbar count={count}/>
+          <Home onClick={handleCartCount}/>
           <Footer/>,
         </>
       ),

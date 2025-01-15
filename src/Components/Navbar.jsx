@@ -6,7 +6,7 @@ import { IoBagOutline } from "react-icons/io5";
 import { FaBars } from "react-icons/fa";
 import Flymenu from "./Flymenu";
 
-const Navbar = () => {
+const Navbar = ({count}) => {
   const [showMenu,setShowMenu]  = useState(false)
   const toggleMenu = () => {
     setShowMenu(prev => !prev)
@@ -41,7 +41,7 @@ const Navbar = () => {
         <div className="flex gap-[5px] items-center">
           <IoBagOutline className="text-2xl" />
           <span className="h-5 w-5 flex items-center justify-center bg-black text-white rounded-full text-xs">
-            2
+            {count}
           </span>
         </div>
       </div>
