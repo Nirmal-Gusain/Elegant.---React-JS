@@ -32,8 +32,8 @@ const App = () => {
       element: (
         <>
           <Notification />
-          <Navbar />
-          <Shop />
+          <Navbar count={count}/>
+          <Shop onClick={handleCartCount}/>
           <Footer/>
         </>
       ),
@@ -43,7 +43,7 @@ const App = () => {
       element: (
         <>
           <Notification />
-          <Navbar />
+          <Navbar count={count}/>
           <Product/>
           <Footer/>
         </>
@@ -54,7 +54,7 @@ const App = () => {
       element: (
         <>
           <Notification />
-          <Navbar />
+          <Navbar count={count}/>
           <Contact />
           <Footer/>
         </>

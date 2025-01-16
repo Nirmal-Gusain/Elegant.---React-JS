@@ -4,7 +4,7 @@ import ProductData from "../Components/ProductData.json"
 import SingleProduct from '../Components/SingleProduct';
 
 
-const Shop = () => {
+const Shop = (props) => {
   return (
     <div>
         <div className=' w-[1440px] m-auto px-40 relative'>
@@ -46,7 +46,7 @@ const Shop = () => {
             <div className=' w-[834px]  grid grid-cols-3 gap-6'>
                 {
                     ProductData.map((data)=>{
-                        return <SingleProduct Data = {data}/>
+                        return <SingleProduct Data = {data} onClick={props.onClick}/>
                     })   
                 }
             </div>

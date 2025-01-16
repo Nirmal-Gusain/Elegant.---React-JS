@@ -13,7 +13,7 @@ const Navbar = ({count}) => {
   }
   
   return ( 
-    <div className="flex items-center justify-between max-w-[1440px] m-auto py-4 px-40 max-sm:px-8">
+    <div className="flex items-center justify-between max-w-[1440px] m-auto py-4 px-40 max-sm:px-8 border-2 border-black sticky z-50 bg-white top-0">
       <div className="flex items-center gap-1">
       <FaBars onClick={toggleMenu} className="hidden max-sm:block"/>
       <Flymenu toggleMenu={toggleMenu} showMenu={showMenu}/>
