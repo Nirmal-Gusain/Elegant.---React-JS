@@ -8,6 +8,8 @@ import Navbar from "./Components/Navbar";
 import Contact from "./Pages/Contact";
 import Product from "./Pages/Product";
 import Footer from "./Components/Footer"
+import SignUp from "./Pages/SignUp";
+import SignIn from "./Pages/SignIn";
 
 const App = () => {
   const[count,setCount] = useState(0)
@@ -56,6 +58,28 @@ const App = () => {
           <Notification />
           <Navbar count={count}/>
           <Contact />
+          <Footer/>
+        </>
+      ),
+    },
+    {
+      path: "/signup",
+      element: (
+        <>
+          <Notification />
+          <Navbar count={count}/>
+          <SignUp/>
+          <Footer/>
+        </>
+      ),
+    },
+    {
+      path: "/signin",
+      element: (
+        <>
+          <Notification />
+          <Navbar count={count}/>
+          <SignIn/>
           <Footer/>
         </>
       ),

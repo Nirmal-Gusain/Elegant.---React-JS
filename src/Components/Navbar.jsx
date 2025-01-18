@@ -18,7 +18,7 @@ const Navbar = ({count}) => {
       <FaBars onClick={toggleMenu} className="hidden max-sm:block"/>
       <Flymenu toggleMenu={toggleMenu} showMenu={showMenu}/>
       
-      <h2 className="text-2xl font-medium px-2"><NavLink to="/">3legant.</NavLink> </h2>
+      <h2 className="text-2xl font-medium "><NavLink to="/">3legant.</NavLink> </h2>
 
       </div>
       <ul className="flex items-center justify-center gap-10 max-sm:hidden">
@@ -37,7 +37,7 @@ const Navbar = ({count}) => {
       </ul>
       <div className="flex gap-4">
         <CiSearch className="text-2xl max-sm:hidden" />
-        <HiOutlineUserCircle className="text-2xl max-sm:hidden"/>
+        <NavLink to="/signup"><HiOutlineUserCircle className="text-2xl max-sm:hidden"/></NavLink>
         <div className="flex gap-[5px] items-center">
           <IoBagOutline className="text-2xl" />
           <span className="h-5 w-5 flex items-center justify-center bg-black text-white rounded-full text-xs">
