@@ -10,6 +10,7 @@ import Product from "./Pages/Product";
 import Footer from "./Components/Footer"
 import SignUp from "./Pages/SignUp";
 import SignIn from "./Pages/SignIn";
+import Blog from "./Pages/Blog";
 
 const App = () => {
   const[count,setCount] = useState(0)
@@ -85,9 +86,20 @@ const App = () => {
       ),
     },
     {
+      path: "/blog",
+      element: (
+        <>
+          <Notification />
+          <Navbar count={count}/>
+          <Blog/>
+          <Footer/>
+        </>
+      ),
+    },
+    {
       path: "*",
       element: <ErrorPage />,
-    },
+    }
   ]);
   return (
     <div>

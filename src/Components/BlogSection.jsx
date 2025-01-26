@@ -2,6 +2,7 @@ import React from "react";
 import { FiArrowRight } from "react-icons/fi";
 import BlogData from "./BlogData.json"
 import SingleBlog from "./SingleBlog";
+import { NavLink } from "react-router-dom";
 
 const BlogSection = () => {
   return (
@@ -10,9 +11,9 @@ const BlogSection = () => {
         <h2 className="text-[40px] max-sm:text-3xl font-medium w-[150px] leading-[44px]">
           Articles
         </h2>
-        <p className="font-medium border-b-2 border-b-black flex items-center gap-1 max-sm:text-sm">
+        <NavLink to="/blog" className="font-medium border-b-2 border-b-black flex items-center gap-1 max-sm:text-sm">
           More Articles <FiArrowRight />
-        </p>
+        </NavLink>
       </div>
       <div className="flex gap-[25px] max-sm:flex-col">
       {

@@ -4,6 +4,7 @@ const Hero = () => {
   return (
     <div className="max-w-[1440px] m-auto px-40 max-sm:px-8">
     <img
+        loading='lazy'
         src="HeroBg.jpg"
         className="flex-wrap max-sm:h-[304px] w-full object-cover"
         alt=""

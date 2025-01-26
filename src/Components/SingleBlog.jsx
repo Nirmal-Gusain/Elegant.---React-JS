@@ -6,7 +6,7 @@ const SingleBlog = (props) => {
   const { img, title } = props.Data;
   return (
     <div className="flex flex-col gap-6">
-      <img src={img} alt="" />
+      <img src={img} alt="" loading="lazy"/>
       <div className="flex flex-col gap-2">
         <h2 className="text-xl font-medium">{title}</h2>
         <NavLink

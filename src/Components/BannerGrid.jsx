@@ -7,6 +7,7 @@ const BannerGrid = () => {
     <div className="flex justify-between  max-sm:flex-col max-sm:gap-4 max-w-[1440px] m-auto px-40 max-sm:px-8">
       <div className="relative">
         <img
+          loading="lazy"
           src="gridImg1.jpg"
           className="w-[548px] h-[664px] max-sm:h-full max-sm:w-full"
           alt=""
@@ -24,6 +25,7 @@ const BannerGrid = () => {
       <div className="flex flex-col justify-between max-sm:gap-4">
         <div className="relative">
           <img
+            loading="lazy"
             src="gridImg2.jpg"
             className="h-[319px] w-[548px] max-sm:h-full max-sm:w-full"
             alt=""
@@ -41,6 +43,7 @@ const BannerGrid = () => {
 
         <div className="relative">
           <img
+            loading="lazy"
             src="gridImg3.jpg"
             className="h-[319px] w-[548px] max-sm:h-full max-sm:w-full"
             alt=""

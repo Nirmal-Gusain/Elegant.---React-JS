@@ -11,7 +11,7 @@ const SingleProduct = (props) => {
             <p className="px-[14px] py-1 bg-[#38CB89] font-bold w-fit text-white rounded">-50%</p>
         </div>
         <button className="px-6 py-2 w-[230px] rounded bg-black text-white absolute top-[287px] left-4" onClick={props.onClick}>Add to Cart</button>
-      <img className="w-[262px] h-[349px]"  src={img} alt="" />
+      <img loading="lazy" className="w-[262px] h-[349px]"  src={img} alt="" />
       <div className="flex">
         <FaStar className="text-[#343839]"  />
         <FaStar className="text-[#343839]"  />

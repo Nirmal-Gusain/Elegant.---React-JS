@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import { AiOutlineShop } from "react-icons/ai";
 import { FiPhoneCall } from "react-icons/fi";
 import { MdOutlineEmail } from "react-icons/md";
-import Value from "../Components/Values";
+
 
 const Contact = () => {
   return (

@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const Banner = () => {
   return (
     <div className="max-w-[1440px] m-auto flex max-sm:flex-col">
-      <img src="BannerImg.jpg" className="max-sm:h-full max-sm:w-full" alt="" />
+      <img loading="lazy" src="BannerImg.jpg" className="max-sm:h-full max-sm:w-full" alt="" />
       <div className="pr-40 pl-[72px] max-sm:px-8 max-sm:py-8 flex flex-col gap-4 justify-center bg-[#F3F5F7] w-full">
         <span className="font-bold text-[#377DFF]">SALE UP TO 35% OFF</span>
         <h2 className="text-[40px] font-medium leading-[44px] w-[350px] max-sm:w-[200px] max-sm:text-2xl">
