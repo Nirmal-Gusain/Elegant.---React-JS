@@ -28,9 +28,9 @@ const Navbar = ({count}) => {
         <li className="text-sm font-medium">
           <NavLink to="/shop" className={ ({isActive})=> isActive ? "text-black" : "text-[#6C7275]"} >Shop</NavLink>
         </li>
-        <li className="text-sm font-medium">
+        {/* <li className="text-sm font-medium">
           <NavLink to="/product" className={ ({isActive})=> isActive ? "text-black" : "text-[#6C7275]"} >Product</NavLink>
-        </li>
+        </li> */}
         <li className="text-sm font-medium">
           <NavLink to="/contact" className={ ({isActive})=> isActive ? "text-black" : "text-[#6C7275]"} >Contact Us</NavLink>
         </li>

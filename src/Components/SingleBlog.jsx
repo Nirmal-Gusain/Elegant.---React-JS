@@ -13,7 +13,7 @@ const SingleBlog = (props) => {
           to="/shop"
           className="flex items-center gap-1 font-medium border-b-2 border-b-black w-fit max-sm:text-sm"
         >
-          Shop Now <FaArrowRight />
+          Read More <FaArrowRight />
         </NavLink>
       </div>
     </div>

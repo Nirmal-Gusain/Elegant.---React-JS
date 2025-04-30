@@ -35,12 +35,12 @@ const Flymenu = ({ toggleMenu , showMenu}) => {
             >
               Shop
             </NavLink>
-            <NavLink
+            {/* <NavLink
               className="border-b border-b-[#E8ECEF] pb-[15px]"
               to="/product"
             >
               Product
-            </NavLink>
+            </NavLink> */}
             <NavLink
               className="border-b border-b-[#E8ECEF] pb-[15px]"
               to="/contact"
