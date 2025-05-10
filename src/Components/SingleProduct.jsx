@@ -10,7 +10,7 @@ const SingleProduct = (props) => {
             <p className="px-[14px] py-1 rounded bg-white font-bold">NEW</p>
             <p className="px-[14px] py-1 bg-[#38CB89] font-bold w-fit text-white rounded">-50%</p>
         </div>
-        <button className="px-6 py-2 w-[230px] rounded bg-black text-white absolute top-[287px] left-4" onClick={props.onClick}>Add to Cart</button>
+        <button className="px-6 py-2 w-full  rounded bg-black text-white absolute max-sm:top-[55%] top-[70%] " onClick={props.onClick}>Add to Cart</button>
       <img loading="lazy" className="max-w-[262px] max-h-[349px]"  src={img} alt="" />
       <div className="flex">
         <FaStar className="text-[#343839]"  />

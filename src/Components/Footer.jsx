@@ -13,15 +13,12 @@ const Footer = () => {
           <div className="h-6 w-[1px] bg-white max-sm:h-[1px] max-sm:w-6"></div>
           <p className="font-normal text-sm">Gift & Decoration Store</p>
         </div>
-        <ul className="flex items-center gap-10 max-sm:flex-col">
+        <ul className="flex items-center gap-10">
           <li>
             <NavLink to="/">Home</NavLink>
           </li>
           <li>
             <NavLink to="/shop">Shop</NavLink>
-          </li>
-          <li>
-            <NavLink to="/product">Product</NavLink>
           </li>
           <li>
             <NavLink to="/contact">Contact Us</NavLink>
